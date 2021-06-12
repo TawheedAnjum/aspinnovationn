@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.top-nav {
+  background-color: #3c8dad;
+}
+.top-nav .disabled {
+  color: white;
+}
+.top-nav a {
+  color: white;
+}
+.top-nav .right i {
+  background-color: rgba(255, 255, 255, 0.322);
+  font-size: 0.8rem;
+  width: 30px;
+  padding: 10px;
+  height: 30px;
+}
+.top-nav .right i:hover {
+  background-color: rgba(255, 255, 255, 0.541);
+}
+.top-nav nav {
+  background-color: white;
+  font-weight: 500;
+}
+.top-nav nav .nav-link {
+  color: black 100%;
+}
+
+header .carousel-inner img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+header .carousel-caption {
+  top: 55%;
+  transform: translateY(-50%);
+}/*# sourceMappingURL=home.css.map */

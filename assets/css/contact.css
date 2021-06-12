@@ -1,0 +1,55 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.top-nav {
+  background-color: #3c8dad;
+}
+.top-nav .disabled {
+  color: white;
+}
+.top-nav a {
+  color: white;
+}
+.top-nav .right i {
+  background-color: rgba(255, 255, 255, 0.322);
+  font-size: 0.8rem;
+  width: 30px;
+  padding: 10px;
+  height: 30px;
+}
+.top-nav .right i:hover {
+  background-color: rgba(255, 255, 255, 0.541);
+}
+.top-nav nav {
+  background-color: white;
+  font-weight: 500;
+}
+.top-nav nav .nav-link {
+  color: black 100%;
+}
+
+main {
+  background-image: url("/assets/image/img-2.jpg");
+  height: 100%;
+  width: 100%;
+}
+main p {
+  font-size: 1.2rem;
+  color: #626262;
+}
+main .row .bottom-border {
+  border-bottom: 3px solid black;
+  width: 8vh;
+}
+main .row p {
+  color: #626262;
+  font-size: 1rem;
+}
+main .row .form-group label {
+  color: #626262;
+}
+
+footer {
+  background-color: black;
+}/*# sourceMappingURL=contact.css.map */
